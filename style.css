@@ -1,0 +1,116 @@
+/*
+THEME NAME: EXTRACT GRID THEME 
+VERSION:1
+AUTHOR: <a href="http://www.extract.jp/">Extract</a>
+*/
+
+body {
+font-family: 'Vollkorn', serif;
+margin: 0;
+padding: 0;
+line-height: 1.6;
+font-size: 1em;
+color: #000;
+background: #fff;
+}
+a:link {color: #000;text-decoration: none;font-weight: normal;}
+a:visited {color: #000;text-decoration: none;font-weight: normal;}
+a:active,a:hover {color: #999;font-weight: normal;}
+
+h1 { font-size: 3em;font-weight:normal;}
+h2 { font-size: 2em;font-weight:normal;}
+h3 { font-size: 1.666666666666667em;font-weight:normal;}
+h4 { font-size: 1.5em;font-weight:normal;}
+h5 {font-size: 1.333333333333333em;font-weight:normal;}
+h6 {font-size: 1.166666666666667em;text-transform: uppercase;font-weight: normal;}
+
+hr {display: block;height: 1px;border: 0;border-top: 1px solid #000000;margin: 1em 0 1.75em 0;padding: 0;}
+img {border: 0;}
+blockquote, blockquote blockquote blockquote {overflow: hidden;padding: 0 0 0 10px;font-style: italic;color: #aaa;border-left:solid 1px #aaa;}
+code {padding: 0 3px;color: #555;background: #eeeeee;}
+pre {padding: 15px 20px;background: #eeeeee;border: 1px solid #cccccc;}
+pre code {padding: 0;background: transparent;}
+
+ul li, ol li { line-height: 1.6em; }
+dl { margin: 0 0 20px 30px; }
+dl dt {margin: 0;font-size: 1.1em;line-height: 1.75em;font-family: Georgia, 'Times New Roman', Times, serif;font-weight: normal;}
+dl dd {margin: 0 0 5px 20px;padding: 0;color: #888;}
+
+ul {list-style: square;margin: 0 0 1.75em 2.8em;padding: 0;}
+ol {list-style-type: decimal;margin: 0 0 1.75em 3.1em;padding: 0;}
+ol ol { list-style: upper-roman }
+ol ol ol { list-style: lower-roman }
+ol ol ol ol { list-style: upper-alpha }
+ol ol ol ol ol { list-style: lower-alpha }
+ul ul, ol ol, ul ol, ol ul { margin-bottom:0 }
+dl { margin: 0 0 1.75em 5px }
+dt {font-weight: bold;margin: 10px 0 0 0}
+dd { margin: 5px 0 0 1.5em }
+
+table {margin: 0 0 1.75em 0;width: 100%;}
+table caption {font-size: 0.9em;line-height: 1.75em;color: #888;}
+table th {font-size: 0.9em;line-height: 1.75em;font-weight: normal;text-transform: uppercase;padding: 0.9%;border-bottom: none;border-bottom: 3px solid #e7e7e7;text-align: left;}
+td {padding: 0.9%;color: #888;border-bottom: 1px solid #e7e7e7;}
+
+.alignright,img.alignright{float:right;margin:1em 0 0 1em;}
+.alignleft,img.alignleft{float:left;margin:1em 1em 0 0;}
+.aligncenter,img.aligncenter{display:block;margin:1em auto;text-align:center;}
+
+
+.hfeed {margin: 20px 20px 0 20px;}
+div#container,div#primary {margin-top:2em;clear:both;}
+
+/* Header */
+#header {height:50px;margin:0 20px; padding:10px 0 0 0;}
+.headerTitle {text-align:left;float:left;}
+#header h1 {font-size: 1.6em;margin:0;}
+#header h1 a:hover {text-decoration:none;}
+.site-description {font-size:0.9em;font-weight:normal;margin:0;}
+
+/* Page */
+#PagePost {width: 920px;margin:0 auto;padding: 30px 0 0 0;}
+.page-title {margin:0 0 20px 0;font-size: 1.5em;font-weight:normal;}
+
+/* content */
+#content {border-top: solid 1px #000;margin: 0 20px 0 20px;font-size: 0.85em;line-height:1.5;}
+#archives-content, #category-content, #single-content{padding:20px 20px 20px 0;border-bottom: solid 1px #000;}
+#content p a{text-decoration:underline;}
+#content p a:hover{text-decoration:none;}
+
+.entry-title {margin:0 0 20px 0;font-size: 1.2em;font-weight:normal;}
+.entry-meta {margin:0;font-size: 0.8em;padding: 0;}
+.archive-title {margin:0 0 0 20px;font-size: 1em;font-weight:normal;}
+
+/* Navigation */
+div#nav-below {margin:50px 20px 0 20px;font-weight:bold;clear:both;}
+div#nav-archive {margin:50px 0 0 0;}
+div.navigation div.nav-previous {float:left;}
+div.navigation div.nav-next {float:right;}
+
+
+/* Js Btn */
+.topForm {
+margin: 0 0 0 20px;
+}
+
+/* Top Thumbnail */
+#grid-img {width: 160px;margin: 0 12px;}
+#grid-img img {width: 160px;border: none;margin: 12px;-moz-box-shadow: -1px 2px 5px #ccc;-webkit-box-shadow:-1px 2px 5px #ccc;}
+#grid-img p {display:none;}
+
+/* Menu */
+#navi {display: inline-block;float:right;right:1em;top:1em;}
+#navi ul {list-style: none;margin: 0;padding: 0;}
+#navi li {float: left;min-width: 94px;white-space: nowrap;background:#ffffff;}
+#navi li a { padding:3px 7px 0 7px;display:block;  background:#ffffff;line-height:1.4;}
+#navi li a:hover { color:#000000;background:#eeeeee;text-decoration:none;}
+#navi ul ul {display: none;position: absolute;z-index: 10;}
+#navi ul li ul li{display:block;  clear: left;position:relative;width: 100%;}
+#navi li li a{ color:#999999;}
+#navi li li a:hover{ background:#eeeeee;text-decoration:none;}
+#navi ul ul ul {top: 0;left: 100%;}
+#navi ul li:hover > ul {display: block;}
+*+html #navi ul ul a {width: auto; white-space: normal; }
+
+/* Footer */
+div#footer {text-align:left;font-size: 0.8em;padding: 50px 0 30px 20px;line-height: 1.5;}
